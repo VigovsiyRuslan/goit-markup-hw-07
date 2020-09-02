@@ -1,4 +1,4 @@
-html {
+/* html {
   box-sizing: border-box;
 }
 
@@ -6,7 +6,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}
+} */
 
 :root {
   --prymary-text-color: #212121;
@@ -15,7 +15,7 @@ html {
   --complementary-color: #ffffff;
   --backgraund-footer: #2f303a;
 }
-
+/* 
 body {
   margin: 0;
   background-color: #ffffff;
@@ -23,6 +23,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
 b {
   color: #ffffff;
 }
@@ -63,15 +64,15 @@ li {
   width: 1230px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* Шапка */
 
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #ececec;
-}
+} */
 
-.container-header {
+/* .container-header {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 24px;
@@ -79,9 +80,9 @@ li {
   width: 1230px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.logo {
+/* .logo {
   color: #000000;
   font-family: Raleway;
   font-weight: bold;
@@ -94,15 +95,16 @@ li {
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.logo-web {
-  color: #2196f3;
-}
-
-.logo:hover {
+/* .logo-web {
   color: var(--accent-color);
-}
+} */
+
+/* .logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+} */
 
 .navigation {
   display: flex;

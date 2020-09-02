@@ -1,0 +1,66 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.container-header {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: $accent-color;
+  }
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.logo-web {
+  color: $accent-color;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.smartphone {
+  justify-content: space-between;
+  align-items: center;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.container-site {
+  margin-left: 85px;
+
+  display: flex;
+  align-items: center;
+}
