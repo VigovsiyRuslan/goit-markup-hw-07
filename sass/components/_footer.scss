@@ -1,0 +1,124 @@
+.footer {
+  background-color: $backgraund-footer;
+}
+.footer-container {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.footer-social {
+  margin-bottom: 20px;
+  padding: 0;
+}
+.caption-b {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $complementary-color;
+}
+.footer-box {
+  position: relative;
+  display: flex;
+  width: 570px;
+}
+.footer-btn {
+  position: absolute;
+  right: 0px;
+  bottom: 55px;
+}
+.subscribe {
+  margin-right: 10px;
+}
+.textarea-footer {
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  color: #c4c4c4;
+  margin-top: 15px;
+}
+.google-link {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $complementary-color;
+}
+.footer-flexbox {
+  display: block;
+  width: 285px;
+}
+.footer-contacts {
+  display: inline-block;
+  margin-top: 9px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.address {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-web {
+  color: $accent-color;
+}
+.footer-studio {
+  color: $complementary-color;
+}
+
+.icon-team {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+  margin-bottom: 30px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: #ffffff;
+    background-color: $accent-color;
+  }
+  &:focus {
+    color: #ffffff;
+    background-color: $accent-color;
+  }
+
+  .footer {
+    color: #ffffff;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      background-color: $accent-color;
+    }
+  }
+}
