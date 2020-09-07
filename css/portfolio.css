@@ -443,7 +443,6 @@ li {
 
 .site-nav .link {
   color: #212121;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -455,20 +454,16 @@ li {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link:hover {
+.site-nav .link:hover, .site-nav .link:focus {
   color: #2196f3;
 }
 
-.site-nav .link:focus {
-  color: #2196f3;
-}
-
-.site-nav .link .current {
+.site-nav .link.current {
   position: relative;
   color: #2196f3;
 }
 
-.site-nav .link .current::after {
+.site-nav .link.current::after {
   content: "";
   position: absolute;
   left: 0;
