@@ -468,7 +468,7 @@ li {
   color: #2196f3;
 }
 
-.site-nav .link .current ::after {
+.site-nav .link .current::after {
   content: "";
   position: absolute;
   left: 0;
