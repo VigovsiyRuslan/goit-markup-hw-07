@@ -609,26 +609,26 @@ li {
 
 /* Стили портфолио */
 
-.filters-list {
+/* .filters-list {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
   margin: 0;
   padding-left: 0;
-}
+} */
 
-.filters-list > li:not(:last-child) {
+/* .filters-list > li:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
-.filter-button {
+/* .filter-button {
   cursor: pointer;
   color: var(--prymary-text-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.filter-button:focus,
+} */
+/* .filter-button:focus,
 .filter-button:hover {
   color: var(--complementary-color);
 }
@@ -636,9 +636,9 @@ li {
 .filter-button:focus,
 .filter-button:hover {
   background-color: var(--accent-color);
-}
+} */
 
-.filter-button {
+/* .filter-button {
   display: inline-block;
   padding: 6px 22px;
   min-width: 73px;
@@ -650,30 +650,30 @@ li {
   background: #f5f4fa;
   border-radius: 4px;
   border: 1px solid transparent;
-}
+} */
 
 /* Список проектов */
-.portfolio-list {
+/* .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-}
+} */
 
-.portfolio-item:nth-child(3n) {
+/* .portfolio-item:nth-child(3n) {
   margin-right: 0px;
 }
 
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
-}
+} */
 
-.link-porfolio {
+/* .link-porfolio {
   display: block;
   text-decoration: none;
-}
+} */
 
-.title-portfolio {
+/* .title-portfolio {
   color: var(--prymary-text-color);
   font-weight: bold;
   font-size: 18px;
@@ -681,9 +681,9 @@ li {
   margin-top: 0;
   margin-bottom: 4px;
   letter-spacing: 0.06em;
-}
+} */
 
-.portfolio-item {
+/* .portfolio-item {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -692,34 +692,34 @@ li {
   box-sizing: border-box;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.portfolio-item:hover,
+/* .portfolio-item:hover,
 .portfolio-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
-.contetnt-portfolio {
+/* .contetnt-portfolio {
   padding: 20px 24px;
-}
+} */
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-.thumb-portfolio {
+/* .thumb-portfolio {
   display: flex;
   position: relative;
   text-align: center;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
+} */
 
-.thumb-opacity {
+/* .thumb-opacity {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -731,15 +731,15 @@ img {
   background: rgba(33, 150, 243, 0.9);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.portfolio-item:hover .thumb-opacity,
+/* .portfolio-item:hover .thumb-opacity,
 .portfolio-item:focus .thumb-opacity {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
-.text-opacity {
+/* .text-opacity {
   text-align: center;
   opacity: 1;
   margin: 0;
@@ -753,7 +753,7 @@ img {
   letter-spacing: 0.03em;
 
   color: #ffffff;
-}
+} */
 
 /* Модалка */
 /* .backdrop {
