@@ -805,7 +805,7 @@ img {
   background-color: #2196f3;
 }
 
-.icon-team .footer {
+.icon-team.footer {
   color: #ffffff;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
@@ -813,7 +813,7 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-team .footer:hover {
+.icon-team.footer:hover {
   background-color: #2196f3;
 }
 /*# sourceMappingURL=portfolio.css.map */

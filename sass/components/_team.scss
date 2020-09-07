@@ -79,7 +79,7 @@
     background-color: $accent-color;
   }
 
-  .footer {
+  &.footer {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
     transition-duration: 250ms;

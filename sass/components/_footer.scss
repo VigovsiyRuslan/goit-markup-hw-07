@@ -48,6 +48,7 @@
   color: #c4c4c4;
   margin-top: 15px;
 }
+
 .google-link {
   display: inline-block;
   font-style: normal;
@@ -114,7 +115,7 @@
     background-color: $accent-color;
   }
 
-  .footer {
+  &.footer {
     color: #ffffff;
 
     transition-duration: 250ms;
