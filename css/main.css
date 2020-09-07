@@ -964,8 +964,8 @@ li {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  -webkit-transition: opacity 250 ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250 ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop .is-hidden {
@@ -998,28 +998,6 @@ li {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close {
-  cursor: pointer;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  background-color: #ffffff;
-  border-radius: 1px solid black;
-}
-
-textarea {
-  cursor: pointer;
-  resize: none;
-  width: auto;
-  outline: 0;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-}
-
-textarea:focus {
-  border: 1px solid #2196f3;
-}
-
 .form {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1041,10 +1019,27 @@ textarea:focus {
   margin-bottom: 10px;
 }
 
-.form-field .form-lable {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.form-input {
+  cursor: pointer;
+  outline: 0;
+  margin: 0;
+  padding: 12px 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  text-align: left;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:focus {
+  border: 1px solid #2196f3;
+}
+
+.form-input:focus + .name-svg {
+  fill: #2196f3;
+}
+
+.form .form-lable {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -1065,23 +1060,38 @@ textarea:focus {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input {
+textarea {
   cursor: pointer;
+  resize: none;
+  width: auto;
   outline: 0;
-  margin: 0;
-  padding: 12px 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 16px 12px;
   border-radius: 4px;
-  text-align: left;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus {
+textarea:focus {
   border: 1px solid #2196f3;
 }
 
-.form-input:focus .name-svg {
+.button-close {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.close-svg {
+  width: 11px;
+  height: 11px;
+  color: #ffffff;
+  fill: #000000;
+}
+
+.close-svg:focus, .close-svg:hover {
   fill: #2196f3;
 }
 
@@ -1108,10 +1118,7 @@ textarea:focus {
   margin-bottom: 10px;
 }
 
-.grop {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.group {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -1124,19 +1131,12 @@ textarea:focus {
   color: #2196f3;
 }
 
-.close-svg {
-  width: 11px;
-  height: 11px;
-  color: #ffffff;
-  fill: #000000;
-}
-
-.close-svg:hover {
-  fill: #2196f3;
-}
-
-.close-svg:focus {
-  fill: #2196f3;
+.icon-check {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 2px;
 }
 
 .checkbox {
@@ -1146,19 +1146,11 @@ textarea:focus {
   position: absolute;
 }
 
-.checkbox :checked + .icon-check {
+.checkbox:checked + .icon-check {
   border-color: #2196f3;
   background-color: #2196f3;
-  background-image: url(/images/svg/icon-check.svg);
+  background-image: url(../images/svg/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
-}
-
-.icon-check {
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  border: 2px solid #212121;
-  border-radius: 2px;
 }
 /*# sourceMappingURL=main.css.map */
