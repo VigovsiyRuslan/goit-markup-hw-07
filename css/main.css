@@ -1096,7 +1096,7 @@ textarea:focus {
           justify-content: center;
   width: 44px;
   height: 44px;
-  color: #afb1b8;
+  color: #ffffff;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   background-repeat: no-repeat;
@@ -1109,13 +1109,7 @@ textarea:focus {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-
-.footer-social-link:focus {
-  color: #ffffff;
+.footer-social-link:hover, .footer-social-link:focus {
   background-color: #2196f3;
 }
 
