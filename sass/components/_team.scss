@@ -1,6 +1,4 @@
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background: #f5f4fa;
 }
 
@@ -29,12 +27,6 @@
   text-align: center;
 }
 
-.icon {
-  fill: currentColor;
-  width: 20px;
-  height: 20px;
-}
-
 .team-members {
   display: flex;
   margin: 0;
@@ -52,40 +44,4 @@
   margin-bottom: 0;
   margin-top: 30px;
   text-align: center;
-}
-
-.icon-team {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  color: #afb1b8;
-  border-radius: 50%;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-  margin-bottom: 30px;
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover {
-    color: #ffffff;
-    background-color: $accent-color;
-  }
-  &:focus {
-    color: #ffffff;
-    background-color: $accent-color;
-  }
-
-  &.footer {
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover {
-      background-color: $accent-color;
-    }
-  }
 }
